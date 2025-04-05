@@ -5941,7 +5941,7 @@ h6 {
   }
 
   .banner__container {
-    width: 100%;
+    width: calc(100% - 40px);
   }
 
   .banner__content {
@@ -6215,6 +6215,10 @@ h6 {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     margin: 0px 0px 24px 0px;
+  }
+
+  .form__input:first-child {
+    border-left: none;
   }
 
   .form__input:last-child {
